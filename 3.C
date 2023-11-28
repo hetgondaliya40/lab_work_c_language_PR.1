@@ -2,12 +2,12 @@
 #include<conio.h>
 void main(){
 	clrscr();
-	float n1,n2,n3;
+	float area1,area2,area3;
 	printf("Enter the first side of Triangle: ");
-	scanf("%f",&n1);
+	scanf("%f",&area1);
 	printf("\nEnter the second side of Triangle: ");
-	scanf("%f",&n2);
-	n3=180-n1-n2;
-	printf("\nThird Side of Triangle is: %f",n3);
+	scanf("%f",&area2);
+	area3=180-area1-area2;
+	printf("\nThird Side of Triangle is: %f",area3);
 	getch();
 }
